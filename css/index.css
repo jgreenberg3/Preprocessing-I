@@ -136,6 +136,10 @@ body {
   height: 100%;
 }
 /* My stylings begin here. */
+/* Variables: */
+/* Nesting */
+/* Mixins */
+/* Mobile */
 div {
   border: 1px solid black;
   max-width: 100%;
@@ -145,14 +149,14 @@ div {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 5% 10%;
+  padding: 1% 10%;
 }
 header {
   display: flex;
   justify-content: space-between;
   width: 100%;
   border: 1px solid black;
-  margin: 2%;
+  margin: 2% 0;
   padding: 2%;
 }
 header h1 {
@@ -162,12 +166,10 @@ nav {
   display: flex;
   justify-content: space-evenly;
   width: 70%;
+  border: 1px solid black;
 }
 nav a {
   width: 15%;
-}
-nav {
-  width: 100%;
 }
 .intro {
   display: flex;
@@ -191,8 +193,23 @@ nav {
 .work-history,
 .contact {
   width: 100%;
-  border: 1px solid black;
+  border: 0.5px solid black;
 }
 .skills .container {
   padding: 3%;
+}
+.work-history .container {
+  padding: 3%;
+  margin: 2% 0;
+}
+.contact .container {
+  padding: 3%;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 2%;
+  margin: 2% 0;
+  border: 1px solid black;
 }
